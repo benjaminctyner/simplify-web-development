@@ -13,18 +13,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wavvy - Everything you need to start a podcast</title>
+        <title>Simplify - Your website, made simple.</title>
         <meta
           name="description"
-          content="Wavvy is a small and passionate team in Los Angeles with the goal to simplify how podcasting is done."
+          content="Simplify - Your website, made simple."
         />
       </Head>
       <Header />
       <AboutHero />
       <StoryWithStats />
       <FeaturesGridDark />
-      <Team />
-      <LogosGrid />
+      {/* <Team /> */}
+      {/* <LogosGrid /> */}
       <CareersCTA />
       <Footer />
     </>

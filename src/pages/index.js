@@ -20,7 +20,7 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Wavvy takes the headaches out of your podcast hosting, and allows you to focus on what you love to do – record great content, and grow a loyal audience."
+          content="Simplify - Your website, made simple."
         />
       </Head>
       <Header />

@@ -10,8 +10,9 @@ export function CareersCTA() {
             Want to join the team?
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-center text-lg leading-relaxed text-slate-700">
-            Lorem ipsum dolor sit amet dapibus fusce sed. Aliquet porta bibendum
-            est platea fermentum tempus egestas.
+            If you have an interest in web devlopment and small businesses, you
+            came to the right place. Check for available positions or give us a
+            call if Simplify is the right fit for you.
           </p>
           <div className="mt-10 flex w-full justify-center sm:mt-12">
             <Button href="/signup">See open positions</Button>

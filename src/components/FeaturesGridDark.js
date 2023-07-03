@@ -4,9 +4,9 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Ambition',
+    name: 'Get it done.',
     description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
+      'We get the job done. We walk the walk. We do the thing. And we are proud of that.',
     className:
       "sm:after:content-[''] sm:after:right-0 sm:after:h-5/6 sm:after:w-px sm:after:absolute sm:after:bg-gray-secondary-400/80",
     icon: function AmbitionIcon() {
@@ -44,79 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Resilience',
-    description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
-    className:
-      "lg:after:content-[''] lg:after:right-0 lg:after:h-5/6 lg:after:w-px lg:after:absolute lg:after:bg-gray-secondary-400/80 before:top-0 before:w-full sm:before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/80 before:content-[''] sm:before:h-0",
-    icon: function ResilienceIcon() {
-      return (
-        <svg
-          className="h-14 w-14 sm:h-16 sm:w-16"
-          xmlns="http://www.w3.org/2000/svg"
-          width={64}
-          height={64}
-          viewBox="0 0 64 64"
-          fill="none"
-        >
-          <path
-            d="M52.775 32.735C43.931 28.066 30.225 33.01 24.975 37.795C24.636 37.253 24.214 36.643 23.74 35.958C22.22 33.758 20.328 31.024 19.754 28.482C19.3127 25.6915 19.088 22.8711 19.082 20.046C19.8457 20.1458 20.6196 20.1405 21.382 20.03C21.416 20.024 21.451 20.018 21.482 20.01C22.719 19.7 26.5 17.974 27.672 16C28.1742 15.2523 28.4236 14.3633 28.3836 13.4635C28.3437 12.5636 28.0165 11.7003 27.45 11C28.0001 9.64425 28.2557 8.18705 28.2 6.725C28.2014 6.17523 28.0871 5.63133 27.8643 5.12872C27.6415 4.62612 27.3153 4.1761 26.907 3.808C24.957 2.215 21.348 2 18.074 2C10.813 2 6.38996 20.582 4.82396 28.571C2.18696 42.041 6.50196 54.808 8.92396 57.291C12.25 60.699 19.842 60.808 23.657 60.368C25.982 61.411 30.418 62 35.846 62C36.4993 62 37.166 61.9917 37.846 61.975C46.222 61.765 53.046 58.935 55.584 57.083C57.3228 55.803 58.7243 54.1195 59.6678 52.1774C60.6113 50.2354 61.0685 48.093 61 45.935C60.856 40.775 57.965 36.1 52.775 32.735ZM50.288 46.035C46.4048 48.3551 41.9624 49.5721 37.439 49.555C35.2973 49.5523 33.1635 49.2941 31.083 48.786C30.8315 48.7178 30.6166 48.5542 30.4839 48.3299C30.3513 48.1057 30.3114 47.8385 30.3728 47.5853C30.4342 47.3321 30.592 47.1128 30.8126 46.9742C31.0332 46.8355 31.2992 46.7885 31.554 46.843C37.5572 48.3739 43.9223 47.4669 49.259 44.32C49.3716 44.2524 49.4964 44.2077 49.6263 44.1884C49.7562 44.1691 49.8886 44.1755 50.016 44.2073C50.1434 44.2392 50.2633 44.2958 50.3688 44.374C50.4743 44.4522 50.5634 44.5504 50.631 44.663C50.6985 44.7756 50.7432 44.9004 50.7626 45.0303C50.7819 45.1602 50.7755 45.2926 50.7436 45.42C50.7118 45.5474 50.6551 45.6673 50.5769 45.7728C50.4988 45.8783 50.4006 45.9674 50.288 46.035Z"
-            fill="#9EADB2"
-          />
-        </svg>
-      )
-    },
-  },
-  {
-    name: 'Teamwork',
-    description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
-    className:
-      "sm:after:content-[''] sm:after:right-0 sm:after:h-5/6 sm:after:w-px sm:after:absolute sm:after:bg-gray-secondary-400/80 lg:after:w-0 before:top-0 before:w-full sm:before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/80 before:content-[''] lg:before:h-0",
-    icon: function TeamworkIcon() {
-      return (
-        <svg
-          className="h-14 w-14 sm:h-16 sm:w-16"
-          xmlns="http://www.w3.org/2000/svg"
-          width={64}
-          height={64}
-          viewBox="0 0 64 64"
-          fill="none"
-        >
-          <path
-            d="M11.9999 19.9998C15.6818 19.9998 18.6666 17.0151 18.6666 13.3332C18.6666 9.65127 15.6818 6.6665 11.9999 6.6665C8.31802 6.6665 5.33325 9.65127 5.33325 13.3332C5.33325 17.0151 8.31802 19.9998 11.9999 19.9998Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M31.9998 19.9999C37.1545 19.9999 41.3332 15.8212 41.3332 10.6666C41.3332 5.51193 37.1545 1.33325 31.9998 1.33325C26.8452 1.33325 22.6665 5.51193 22.6665 10.6666C22.6665 15.8212 26.8452 19.9999 31.9998 19.9999Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M17.6959 47.8812C15.9119 47.4345 14.6666 45.8385 14.6666 43.9998V29.3332C14.6666 26.7918 15.6906 24.4878 17.3439 22.8025C16.9093 22.7132 16.4599 22.6665 15.9999 22.6665H7.99992C4.32392 22.6665 1.33325 25.6572 1.33325 29.3332V41.3332C1.33325 41.9078 1.69992 42.4158 2.24525 42.5985L5.41859 43.6558L6.67192 57.4545C6.73459 58.1398 7.31059 58.6665 7.99992 58.6665H15.9999C16.6893 58.6665 17.2653 58.1398 17.3279 57.4532L18.1866 48.0025L17.6959 47.8812Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M51.9999 19.9998C55.6818 19.9998 58.6666 17.0151 58.6666 13.3332C58.6666 9.65127 55.6818 6.6665 51.9999 6.6665C48.318 6.6665 45.3333 9.65127 45.3333 13.3332C45.3333 17.0151 48.318 19.9998 51.9999 19.9998Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M46.3039 47.8812C48.0879 47.4345 49.3332 45.8385 49.3332 43.9998V29.3332C49.3332 26.7918 48.3092 24.4878 46.6559 22.8025C47.0906 22.7132 47.5399 22.6665 47.9999 22.6665H55.9999C59.6759 22.6665 62.6666 25.6572 62.6666 29.3332V41.3332C62.6666 41.9078 62.2999 42.4158 61.7546 42.5985L58.5812 43.6558L57.3279 57.4545C57.2652 58.1398 56.6892 58.6665 55.9999 58.6665H47.9999C47.3106 58.6665 46.7346 58.1398 46.6719 57.4532L45.8132 48.0025L46.3039 47.8812Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M39.9999 22.6665H23.9999C20.3239 22.6665 17.3333 25.6572 17.3333 29.3332V43.9998C17.3333 44.6118 17.7493 45.1452 18.3426 45.2932L22.7506 46.3945L24.0039 61.4438C24.0626 62.1358 24.6399 62.6665 25.3333 62.6665H38.6666C39.3599 62.6665 39.9373 62.1358 39.9959 61.4438L41.2493 46.3945L45.6573 45.2932C46.2506 45.1452 46.6666 44.6118 46.6666 43.9998V29.3332C46.6666 25.6572 43.6759 22.6665 39.9999 22.6665Z"
-            fill="#9EADB2"
-          />
-        </svg>
-      )
-    },
-  },
-  {
     name: 'Integrity',
     description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
+      'Trust is the core of any relationship. We believe in full transparency and honesty with all of our work.',
     className:
-      "lg:after:content-[''] lg:after:right-0 lg:after:h-5/6 lg:after:w-px lg:after:absolute lg:after:bg-gray-secondary-400/80 before:top-0 before:w-full sm:before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/80 before:content-['']",
+      "lg:after:content-[''] lg:after:right-0 lg:after:h-5/6 lg:after:w-px lg:after:absolute lg:after:bg-gray-secondary-400/80 before:top-0 before:w-full ",
     icon: function IntegrityIcon() {
       return (
         <svg
@@ -144,12 +76,11 @@ const features = [
     },
   },
   {
-    name: 'Craftsmanship',
+    name: 'Resilience',
     description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
-    className:
-      "sm:after:content-[''] sm:after:right-0 sm:after:h-5/6 sm:after:w-px sm:after:absolute sm:after:bg-gray-secondary-400/80 before:top-0 before:w-full sm:before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/80 before:content-['']",
-    icon: function MetricsIcon() {
+      'When the going gets tough, we smile, and keep pressing until the finish line.',
+    className: '',
+    icon: function ResilienceIcon() {
       return (
         <svg
           className="h-14 w-14 sm:h-16 sm:w-16"
@@ -160,51 +91,7 @@ const features = [
           fill="none"
         >
           <path
-            d="M12.3868 35.097H4.1287C3.55786 35.097 3.09644 34.6356 3.09644 34.0647C3.09644 33.4939 3.55786 33.0325 4.1287 33.0325H12.3868C12.9576 33.0325 13.4191 33.4939 13.4191 34.0647C13.4191 34.6356 12.9576 35.097 12.3868 35.097Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M15.4103 27.7977C15.146 27.7977 14.8818 27.6966 14.6805 27.4953L8.84202 21.6568C8.4384 21.2532 8.4384 20.6009 8.84202 20.1972C9.24563 19.7936 9.89802 19.7936 10.3016 20.1972L16.1401 26.0357C16.5437 26.4393 16.5437 27.0917 16.1401 27.4953C15.9378 27.6966 15.6746 27.7977 15.4103 27.7977Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M62.9677 40.2581H1.03202C0.721307 40.2581 0.427112 40.3984 0.232015 40.639C0.035885 40.8795 -0.0415347 41.1953 0.0214333 41.4999C0.113305 41.9448 2.44106 52.2002 18.5805 52.6245V62.9676C18.5805 63.5385 19.0419 63.9999 19.6127 63.9999H52.6451C53.216 63.9999 53.6774 63.5385 53.6774 62.9676C53.6774 57.8446 57.8446 53.6774 62.9677 53.6774C63.5386 53.6774 64 53.2159 64 52.6451V41.2903C64 40.7195 63.5386 40.2581 62.9677 40.2581Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M58.5362 28.1737L48.3385 17.9761L40.6853 25.6292L50.883 35.8268C51.0843 36.0281 51.3486 36.1293 51.6128 36.1293C51.8771 36.1293 52.1413 36.0281 52.3426 35.8268L58.5362 29.6333C58.9398 29.2297 58.9398 28.5773 58.5362 28.1737Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M53.3749 8.56074L45.1168 0.302708C44.7132 -0.100903 44.0608 -0.100903 43.6572 0.302708L23.0119 20.9478C22.6083 21.3514 22.6083 22.0038 23.0119 22.4074L31.27 30.6654C31.4713 30.8667 31.7356 30.9679 31.9998 30.9679C32.2641 30.9679 32.5284 30.8667 32.7297 30.6654L53.3749 10.0203C53.7785 9.61673 53.7785 8.96435 53.3749 8.56074Z"
-            fill="#9EADB2"
-          />
-        </svg>
-      )
-    },
-  },
-  {
-    name: 'Self-improvement',
-    description:
-      'Lorem ipsum dolor sit amet orci platea suspendisse. Aliquam habitasse pellentesque lacinia blandit scelerisque blandit sagittis ac suspendisse arcu lectus fringilla.',
-    className:
-      "before:top-0 before:w-full sm:before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/80 before:content-['']",
-    icon: function AudioIcon() {
-      return (
-        <svg
-          className="h-14 w-14 sm:h-16 sm:w-16"
-          xmlns="http://www.w3.org/2000/svg"
-          width={64}
-          height={64}
-          viewBox="0 0 64 64"
-          fill="none"
-        >
-          <path
-            d="M32 16C33.886 16 35.6947 15.1571 37.0283 13.6569C38.3619 12.1566 39.1111 10.1217 39.1111 8C39.1111 5.87827 38.3619 3.84344 37.0283 2.34315C35.6947 0.842854 33.886 0 32 0C30.114 0 28.3053 0.842854 26.9717 2.34315C25.6381 3.84344 24.8889 5.87827 24.8889 8C24.8889 10.1217 25.6381 12.1566 26.9717 13.6569C28.3053 15.1571 30.114 16 32 16Z"
-            fill="#9EADB2"
-          />
-          <path
-            d="M64 48V40C56.0356 40 49.2089 36.16 44.0889 29.28L39.3244 22.88C38.6629 21.9779 37.832 21.2518 36.8915 20.7538C35.9509 20.2559 34.924 19.9984 33.8844 20H30.1511C28.0533 20 26.0622 21.04 24.7111 22.88L19.9467 29.28C14.7911 36.16 7.96444 40 0 40V48C9.84889 48 18.4533 43.32 24.8889 35V44L11.0933 50.2C8.71111 51.28 7.11111 53.92 7.11111 56.84C7.11111 60.8 9.95556 64 13.4756 64H21.3333V62C21.3333 59.3478 22.2698 56.8043 23.9368 54.9289C25.6038 53.0536 27.8647 52 30.2222 52H40.8889C41.8844 52 42.6667 52.88 42.6667 54C42.6667 55.12 41.8844 56 40.8889 56H30.2222C27.2711 56 24.8889 58.68 24.8889 62V64H50.5244C54.0444 64 56.8889 60.8 56.8889 56.84C56.8889 53.92 55.2889 51.28 52.9067 50.2L39.1111 44V35C45.5467 43.32 54.1511 48 64 48Z"
+            d="M52.775 32.735C43.931 28.066 30.225 33.01 24.975 37.795C24.636 37.253 24.214 36.643 23.74 35.958C22.22 33.758 20.328 31.024 19.754 28.482C19.3127 25.6915 19.088 22.8711 19.082 20.046C19.8457 20.1458 20.6196 20.1405 21.382 20.03C21.416 20.024 21.451 20.018 21.482 20.01C22.719 19.7 26.5 17.974 27.672 16C28.1742 15.2523 28.4236 14.3633 28.3836 13.4635C28.3437 12.5636 28.0165 11.7003 27.45 11C28.0001 9.64425 28.2557 8.18705 28.2 6.725C28.2014 6.17523 28.0871 5.63133 27.8643 5.12872C27.6415 4.62612 27.3153 4.1761 26.907 3.808C24.957 2.215 21.348 2 18.074 2C10.813 2 6.38996 20.582 4.82396 28.571C2.18696 42.041 6.50196 54.808 8.92396 57.291C12.25 60.699 19.842 60.808 23.657 60.368C25.982 61.411 30.418 62 35.846 62C36.4993 62 37.166 61.9917 37.846 61.975C46.222 61.765 53.046 58.935 55.584 57.083C57.3228 55.803 58.7243 54.1195 59.6678 52.1774C60.6113 50.2354 61.0685 48.093 61 45.935C60.856 40.775 57.965 36.1 52.775 32.735ZM50.288 46.035C46.4048 48.3551 41.9624 49.5721 37.439 49.555C35.2973 49.5523 33.1635 49.2941 31.083 48.786C30.8315 48.7178 30.6166 48.5542 30.4839 48.3299C30.3513 48.1057 30.3114 47.8385 30.3728 47.5853C30.4342 47.3321 30.592 47.1128 30.8126 46.9742C31.0332 46.8355 31.2992 46.7885 31.554 46.843C37.5572 48.3739 43.9223 47.4669 49.259 44.32C49.3716 44.2524 49.4964 44.2077 49.6263 44.1884C49.7562 44.1691 49.8886 44.1755 50.016 44.2073C50.1434 44.2392 50.2633 44.2958 50.3688 44.374C50.4743 44.4522 50.5634 44.5504 50.631 44.663C50.6985 44.7756 50.7432 44.9004 50.7626 45.0303C50.7819 45.1602 50.7755 45.2926 50.7436 45.42C50.7118 45.5474 50.6551 45.6673 50.5769 45.7728C50.4988 45.8783 50.4006 45.9674 50.288 46.035Z"
             fill="#9EADB2"
           />
         </svg>
@@ -219,7 +106,7 @@ export function FeaturesGridDark() {
       <Container>
         <div className="relative mx-auto w-full max-w-lg px-4 sm:max-w-3xl sm:px-0 lg:mx-0 lg:max-w-none">
           <h2 className="text-4xl font-semibold leading-tight text-white sm:text-center sm:text-5xl sm:leading-tight">
-            The values that drive us.
+            The values that drive Simplify.
           </h2>
           <div className="mt-10 grid sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
