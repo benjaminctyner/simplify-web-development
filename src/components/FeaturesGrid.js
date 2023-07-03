@@ -5,7 +5,7 @@ import { Button } from '@/components/Button'
 
 const features = [
   {
-    name: 'Key podcast metrics in real-time',
+    name: 'Boost revenue through trackable SEO',
     description:
       'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
     href: '#',
@@ -59,7 +59,7 @@ const features = [
   },
 
   {
-    name: 'World class editing software',
+    name: 'Free edits 24/7',
     description:
       'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
     href: '#',
@@ -96,7 +96,7 @@ const features = [
     },
   },
   {
-    name: 'Cloud hosting and storage',
+    name: 'No hassle hosting and storage',
     description:
       'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
     href: '#',
