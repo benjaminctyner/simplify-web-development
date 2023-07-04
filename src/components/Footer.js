@@ -7,9 +7,9 @@ import { Container } from '@/components/Container'
 const navigation = {
   company: [
     { name: 'About us', href: '/about' },
-    { name: 'Careers', href: '#' },
-    { name: 'Customers', href: '#' },
-    { name: 'Privacy', href: '#' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Portfolio', href: '/portfolio' },
+
     { name: 'Contact us', href: '/contact' },
   ],
   solutions: [

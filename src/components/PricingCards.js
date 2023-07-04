@@ -6,26 +6,11 @@ import { Button } from '@/components/Button'
 
 const tiers = [
   {
-    name: 'Hobby',
-    href: '#',
+    name: 'Business',
+    href: '/contact',
     description:
       'Lorem ipsum dolor sit amet molestie condimentum nisl mollis iaculis etiam. ',
-    price: 19,
-    features: [
-      'Unlimited recording ​​& editing',
-      'Up to 720p video quality',
-      '10GB of cloud storage',
-      '128 kbps audio quality',
-      '2 hours of automatic transcript generation',
-      '1 hour of clips',
-    ],
-  },
-  {
-    name: 'Standard',
-    href: '#',
-    description:
-      'Lorem ipsum dolor sit amet molestie condimentum nisl mollis iaculis etiam. ',
-    price: 39,
+    price: 99,
     features: [
       'Unlimited recording ​​& editing',
       'Up to 1080p video quality',
@@ -37,25 +22,6 @@ const tiers = [
       'Screen sharing',
     ],
   },
-  {
-    name: 'Pro',
-    href: '#',
-    description:
-      'Lorem ipsum dolor sit amet molestie condimentum nisl mollis iaculis etiam. ',
-    price: 59,
-    features: [
-      'Unlimited recording ​​& editing',
-      'Up to 4k video quality',
-      'Unlimitted cloud storage',
-      '320 kbps audio quality',
-      'Unlimitted automatic transcript generation',
-      'Unlimitted clips',
-      'Listener analytics',
-      'Screen sharing',
-      'Team spaces',
-      '24/7 live support',
-    ],
-  },
 ]
 
 export function PricingCards() {
@@ -64,12 +30,12 @@ export function PricingCards() {
       <Container>
         <div className="mx-auto flex max-w-lg flex-col items-center sm:max-w-xl md:max-w-2xl lg:mx-0 lg:max-w-none">
           <h1 className="text-center text-4xl font-semibold leading-snug text-slate-900 sm:text-5xl sm:leading-snug md:mx-auto md:max-w-4xl xl:mx-0">
-            Choose a plan that is right for you
+            A simple plan that works for you
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-center text-lg leading-relaxed text-slate-700 sm:mt-6">
-            Lorem ipsum dolor sit amet dapibus fusce sed. Aliquet porta bibendum
-            est platea fermentum tempus egestas. Luctus volutpat mauris quisque
-            dictum et rhoncus habitasse.
+            We offer a monthly subscription that includes the building of a
+            hand-coded business website, complete SEO optimization, unlimited
+            lifetime content edits, and hosting with 99.99% uptime. Guaranteed.
           </p>
         </div>
       </Container>
@@ -80,7 +46,7 @@ export function PricingCards() {
           <div className="flex-1 bg-vanilla" />
         </div>
         <Container>
-          <div className="relative mx-auto grid max-w-lg divide-x-0 divide-y divide-gray-secondary-400/75 border border-gray-secondary-400/60 sm:max-w-xl md:max-w-2xl lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0">
+          <div className="relative mx-auto grid max-w-lg divide-x-0 divide-y divide-gray-secondary-400/75 border border-gray-secondary-400/60 sm:max-w-xl md:max-w-2xl ">
             {tiers.map((tier, index) => (
               <div
                 key={tier.name}
@@ -102,7 +68,7 @@ export function PricingCards() {
                   </span>
                 </p>
                 <Button href={tier.href} className="mt-8 w-full">
-                  Try free for 30 days
+                  Get your website built
                 </Button>
                 <p className="mt-3.5 text-center text-sm text-slate-500">
                   No credit card required
@@ -121,22 +87,6 @@ export function PricingCards() {
                 </ul>
               </div>
             ))}
-          </div>
-
-          <div className="relative mx-auto mt-12 max-w-lg border border-gray-secondary-400/60 bg-gray-secondary-50 p-8 sm:max-w-xl sm:p-12 md:max-w-2xl lg:max-w-5xl">
-            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-              <div className="w-full lg:w-3/5">
-                <h3 className="text-lg font-semibold text-slate-900">Free</h3>
-                <p className="mt-4 text-slate-600">
-                  Lorem ipsum dolor sit amet aliqua vitae curabitur libero urna
-                  dolore orci adipiscing. Praesent tristique dictum aliqua
-                  eleifend malesuada dictumst vulputate rhoncus justo.
-                </p>
-              </div>
-              <Button href="/contact" className="mt-8 lg:mt-0" variant="ghost">
-                Get started for free
-              </Button>
-            </div>
           </div>
         </Container>
       </div>

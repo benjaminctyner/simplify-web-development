@@ -82,8 +82,7 @@ export function ContactInfo() {
               Contact Information
             </h1>
             <p className="mt-4 max-w-sm leading-relaxed text-slate-700 lg:mt-5">
-              Pellentesque massa consequat eleifend turpis eiusmod cras
-              facilisis faucibus enim habitasse at vivamus pharetra.
+              Let us know if there is anything we can help you with.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:col-span-7 lg:gap-5 xl:gap-8">

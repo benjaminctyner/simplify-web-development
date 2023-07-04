@@ -28,7 +28,7 @@ export function FeaturedTestimonials() {
       <Container className="relative">
         <div className="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:mx-0 lg:max-w-none">
           <h2 className="mx-auto max-w-2xl text-center text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl sm:leading-tight">
-            Podcasters love to use our platform
+            Businesses love to use our service
           </h2>
 
           <div className="mt-16 space-y-20 sm:mt-20 lg:space-y-28">

@@ -5,7 +5,7 @@ const contactCards = [
   {
     title: 'Chat with us now',
     text: 'Lorem ipsum dolor sit amet aliqua vitae curabitur libero urna dolore orci adipiscing.',
-    href: '#',
+    href: 'mailto:benjaminctyner@gmail.com',
     buttonLabel: 'Chat with us',
     icon: function ChatIcon() {
       return (
@@ -31,7 +31,7 @@ const contactCards = [
   {
     title: 'Send us a message',
     text: 'Lorem ipsum dolor sit amet aliqua vitae curabitur libero urna dolore orci adipiscing.',
-    href: '#',
+    href: 'mailto:benjaminctyner@gmail.com',
     buttonLabel: 'Send message',
     icon: function MessageIcon() {
       return (
@@ -61,18 +61,69 @@ export function ContactHeader() {
             Contact us
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-center text-lg leading-relaxed text-slate-700 sm:mt-6">
-            Lorem ipsum dolor sit amet dapibus fusce sed. Aliquet porta bibendum
-            est platea fermentum tempus egestas.
+            Give us a call to day if you are interested in your business getting
+            a fresh website.
           </p>
         </div>
       </Container>
+      <div className="px-10 pt-[20px] md:px-[240px]">
+        <form action="#" className="space-y-8">
+          <div>
+            <label
+              htmlFor="email"
+              className="mb-2 block text-sm font-medium text-slate-900 "
+            >
+              Your email
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light block w-full rounded-lg border  border-gray-600 bg-vanilla p-2.5 text-sm text-slate-900 shadow-sm "
+              placeholder="name@example.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="subject"
+              className="text-slat-900 mb-2 block text-sm font-medium "
+            >
+              Subject
+            </label>
+            <input
+              type="text"
+              id="subject"
+              className="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light block w-full rounded-lg border border-gray-600 bg-vanilla p-3 text-sm text-gray-900 shadow-sm "
+              placeholder="Let us know how we can help you."
+              required
+            />
+          </div>
+          <div className="sm:col-span-2">
+            <label
+              htmlFor="message"
+              className="mb-2 block text-sm font-medium text-slate-900 "
+            >
+              Your message
+            </label>
+            <textarea
+              id="message"
+              rows="6"
+              className="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 block w-full rounded-lg border border-gray-600 bg-vanilla p-2.5 text-sm text-gray-900 shadow-sm "
+              placeholder="Leave us a message."
+            ></textarea>
+          </div>
+          <Button type="submit">Send message</Button>
+        </form>
+      </div>
+
       <div className="relative pt-16">
         <div className="absolute inset-0 flex flex-col" aria-hidden="true">
           <div className="flex-1 bg-amber-100" />
           <div className="w-full flex-1 bg-vanilla" />
           <div className="flex-1 bg-vanilla" />
         </div>
-        <Container>
+
+        {/* <Container>
           <div className="relative mx-auto grid max-w-lg gap-y-8 gap-x-6 sm:max-w-xl md:max-w-2xl md:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8">
             {contactCards.map((card) => (
               <div
@@ -104,7 +155,7 @@ export function ContactHeader() {
               </div>
             ))}
           </div>
-        </Container>
+        </Container> */}
       </div>
 
       <div className="h-16 bg-vanilla sm:h-24"></div>

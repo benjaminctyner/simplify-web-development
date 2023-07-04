@@ -24,7 +24,7 @@ export default function Home() {
       <ContactHeader />
       <ContactInfo />
       <Map />
-      <FaqCTA />
+
       <CallToAction />
       <Footer />
     </>

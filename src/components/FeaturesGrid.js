@@ -97,7 +97,7 @@ const features = [
   {
     name: 'No hassle hosting and storage',
     description:
-      'We host your website with 99.9% guaranteed uptime and securely protect all valuable information.',
+      'We host your website with 99.99% guaranteed uptime and securely protect all valuable information.',
     href: '#',
     className:
       "before:top-0 before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/60 before:content-['']",

@@ -45,16 +45,16 @@ export function Map() {
             <div className="flex flex-col border border-gray-secondary-400/60 bg-gray-secondary-50 p-8 sm:flex-row sm:items-center sm:justify-between sm:p-10 lg:absolute lg:right-0 lg:top-1/2 lg:w-1/3 lg:-translate-y-1/2 lg:flex-col lg:items-start">
               <div>
                 <h3 className="text-2xl font-semibold text-slate-900">
-                  Wavy Offices
+                  Simplify Offices
                 </h3>
                 <p className="mt-5 leading-relaxed text-slate-700">
-                  4974 Duck Creek Road <br />
-                  San Francisco, CA 94108
+                  3016 Belspring Lane <br />
+                  Raleigh, NC 27612
                 </p>
               </div>
 
               <Button
-                href="#"
+                href="https://www.google.com/maps/place/3016+Belspring+Ln,+Raleigh,+NC+27612"
                 className="mt-8 w-auto sm:mt-0 lg:mt-8"
                 size="md"
                 variant="ghost"
