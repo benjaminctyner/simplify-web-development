@@ -9,17 +9,15 @@ const tiers = [
     name: 'Business',
     href: '/contact',
     description:
-      'Lorem ipsum dolor sit amet molestie condimentum nisl mollis iaculis etiam. ',
+      'A one stop plan to complete the online presence of your business. ',
     price: 99,
     features: [
-      'Unlimited recording ​​& editing',
-      'Up to 1080p video quality',
-      '50GB of cloud storage',
-      '256 kbps audio quality',
-      '5 hours of automatic transcript generation',
-      '3 hour of clips',
-      'Listener analytics',
-      'Screen sharing',
+      'Complete SEO optimization',
+      'Unlimited lifetime content edits',
+      '99.99% uptime and hosting',
+      'Lead generation and forwarding',
+      'Boost business revenue',
+      'Weekly reports on SEO metrics',
     ],
   },
 ]
@@ -70,9 +68,7 @@ export function PricingCards() {
                 <Button href={tier.href} className="mt-8 w-full">
                   Get your website built
                 </Button>
-                <p className="mt-3.5 text-center text-sm text-slate-500">
-                  No credit card required
-                </p>
+
                 <hr className="border-gray-secondary-400/35 my-10" />
                 <p className="font-medium text-slate-900">
                   {tier.name} includes:
