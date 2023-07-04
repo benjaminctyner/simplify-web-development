@@ -36,7 +36,7 @@ export function AboutHero() {
           </p>
           <h1 className="mt-5 text-center text-4xl font-semibold leading-snug text-slate-900 sm:mt-6 sm:text-5xl sm:leading-snug md:mx-auto md:max-w-4xl xl:mx-0">
             Helping small business out-grow what they thought possible, because
-            thats our dream too.
+            that's our dream too.
           </h1>
         </div>
       </Container>
