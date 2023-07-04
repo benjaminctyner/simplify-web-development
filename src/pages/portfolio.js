@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Simplify - Pricing</title>
+        <title>Simplify - Portfolio</title>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta
           name="description"

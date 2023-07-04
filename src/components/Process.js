@@ -35,7 +35,7 @@ export function Process() {
             </div>
           </div>
           <Button
-            href="/signup"
+            href="/contact"
             variant="ghost"
             color="light"
             className="mt-16 sm:mt-20"

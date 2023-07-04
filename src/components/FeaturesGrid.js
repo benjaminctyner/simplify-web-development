@@ -7,7 +7,7 @@ const features = [
   {
     name: 'Boost revenue through trackable SEO',
     description:
-      'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
+      "Boost your company's revenue through state-of-the-art SEO tools and receive weekly report on key metrics.",
     href: '#',
     className:
       " lg:after:content-[''] lg:after:right-0 lg:after:h-5/6 lg:after:w-px lg:after:absolute lg:after:bg-gray-secondary-400/60 before:top-0 before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/60 before:content-['']",
@@ -60,8 +60,7 @@ const features = [
 
   {
     name: 'Free edits 24/7',
-    description:
-      'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
+    description: 'Change or edit any content on your site at any time.',
     href: '#',
     className:
       "lg:after:content-[''] lg:after:right-0 lg:after:h-5/6 lg:after:w-px lg:after:absolute lg:after:bg-gray-secondary-400/60 before:top-0 before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/60 before:content-['']",
@@ -98,7 +97,7 @@ const features = [
   {
     name: 'No hassle hosting and storage',
     description:
-      'Lorem ipsum dolor sit amet consequat facilisis consequat ultrices suspendisse faucibus mauris.',
+      'We host your website with 99.9% guaranteed uptime and securely protect all valuable information.',
     href: '#',
     className:
       "before:top-0 before:w-5/6 before:h-px before:absolute before:bg-gray-secondary-400/60 before:content-['']",

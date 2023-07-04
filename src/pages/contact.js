@@ -12,7 +12,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wavvy - Contact</title>
+        <title>Simplify - Contact</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <meta
+          name="description"
+          content="Simplify - Your website, made simple."
+        />
       </Head>
 
       <Header />

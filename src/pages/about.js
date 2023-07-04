@@ -14,6 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>Simplify - Your website, made simple.</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta
           name="description"
           content="Simplify - Your website, made simple."

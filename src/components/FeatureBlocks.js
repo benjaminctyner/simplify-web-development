@@ -14,7 +14,7 @@ export function FeatureBlocks() {
             <Image src={featureImage1} className="h-auto w-full" />
             <div className="absolute right-0 top-0 w-64 -translate-y-24 bg-gray-secondary-100/95 p-6 backdrop-blur-sm sm:py-7 lg:left-0 lg:top-[unset] lg:bottom-0 lg:translate-y-24 2xl:-translate-x-16">
               <p className="text-4xl font-semibold text-slate-900 xl:text-5xl">
-                100+
+                100-1000+
               </p>
               <p className="mt-5 text-slate-700">
                 Unique monthly views on your local business website
@@ -26,20 +26,11 @@ export function FeatureBlocks() {
               Never worry about web traffic again
             </h2>
             <p className="mt-6 leading-relaxed text-slate-700 sm:mt-8 sm:text-lg sm:leading-8">
-              Lorem ipsum dolor sit amet orci aliquam porta adipiscing elementum
-              purus netus laoreet pulvinar. Vestibulum platea iaculis eu ac
-              netus lobortis porta sodales urna mollis ac. Elit viverra magna
-              euismod aenean diam ullamcorper eu nec venenatis. Eleifend lacinia
-              luctus sagittis hendrerit habitasse cras dapibus.
+              Through state of the art Search Engine Optimization (SEO), we
+              drive traffic to your business website. Your website will
+              consistently rank higher than competing businesses in your area
+              through our data driven approaches and tools.
             </p>
-            <Button
-              href="#"
-              variant="ghost"
-              size="md"
-              className="mt-10 sm:mt-12"
-            >
-              Learn more
-            </Button>
           </div>
         </div>
 
@@ -60,20 +51,10 @@ export function FeatureBlocks() {
               Quick and easy edits and changes
             </h2>
             <p className="mt-6 leading-relaxed text-slate-700 sm:mt-8 sm:text-lg sm:leading-8">
-              Lorem ipsum dolor sit amet orci aliquam porta adipiscing elementum
-              purus netus laoreet pulvinar. Vestibulum platea iaculis eu ac
-              netus lobortis porta sodales urna mollis ac. Elit viverra magna
-              euismod aenean diam ullamcorper eu nec venenatis. Eleifend lacinia
-              luctus sagittis hendrerit habitasse cras dapibus.
+              Lifetime updates and support are available to all websites 24/7.
+              Just give us a call to change any content on your site, big or
+              small, and we'll get it done.
             </p>
-            <Button
-              href="#"
-              variant="ghost"
-              size="md"
-              className="mt-10 sm:mt-12"
-            >
-              Learn more
-            </Button>
           </div>
         </div>
       </Container>

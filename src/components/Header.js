@@ -15,6 +15,7 @@ const links = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Pricing', href: '/pricing' },
+  { label: 'Portfolio', href: '/portfolio' },
   { label: 'Contact', href: '/contact' },
 ]
 
@@ -114,7 +115,7 @@ export function Header() {
                     </Link>
                   ))}
 
-                  <Disclosure as="div" className="relative">
+                  {/* <Disclosure as="div" className="relative">
                     {({ open }) => (
                       <>
                         <Disclosure.Button
@@ -151,7 +152,7 @@ export function Header() {
                         </Disclosure.Panel>
                       </>
                     )}
-                  </Disclosure>
+                  </Disclosure> */}
                 </div>
                 <div className="mt-6">
                   <Button
@@ -183,7 +184,7 @@ export function Header() {
                   className="hidden h-16 w-auto md:block lg:block lg:h-16"
                 />
                 <Image
-                  src={logoIcon}
+                  src={logo}
                   className="flex h-16 w-auto md:hidden lg:hidden"
                 />
               </a>
@@ -204,7 +205,7 @@ export function Header() {
                 </Link>
               ))}
 
-              <Menu as="div" className="relative">
+              {/* <Menu as="div" className="relative">
                 {({ open }) => (
                   <>
                     <Menu.Button
@@ -244,14 +245,14 @@ export function Header() {
                     </Menu.Items>
                   </>
                 )}
-              </Menu>
+              </Menu> */}
             </div>
           </div>
 
           <div>
             <div className="flex items-center space-x-4">
               <div className="hidden lg:block">
-                <Button size="md" href="/signup">
+                <Button size="md" href="/contact">
                   Get your website built
                 </Button>
               </div>

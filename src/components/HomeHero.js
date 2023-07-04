@@ -34,7 +34,7 @@ export function HomeHero() {
             <li className="flex items-center md:items-start xl:items-center">
               <CheckCircleIcon className="h-5 w-5 shrink-0 text-slate-800 md:h-6 md:w-6 xl:h-5 xl:w-5" />
               <p className="ml-3 text-slate-700 lg:ml-4 xl:ml-5 xl:text-lg">
-                Boost your revenue and get weekly reports with{' '}
+                Boost your revenue and get weekly reports of{' '}
                 <span className="font-medium text-slate-900">
                   key SEO metrics.
                 </span>
@@ -42,11 +42,11 @@ export function HomeHero() {
             </li>
           </ul>
           <div className="mt-10 flex flex-col sm:flex-row sm:space-x-5 md:mt-12 md:justify-center xl:justify-start">
-            <Button href="/signup" className="w-full sm:w-auto">
+            <Button href="/contact" className="w-full sm:w-auto">
               Get your website built
             </Button>
             <Button
-              href="/signin"
+              href="/portfolio"
               variant="ghost"
               className="mt-3.5 w-full sm:mt-0 sm:w-auto"
             >
@@ -95,7 +95,7 @@ export function HomeHero() {
                   <p className="font-medium text-slate-900">Courtland Allen</p>
 
                   <p className="font-medium text-slate-500">
-                    Indie Hackers Podcast
+                    Lawn and Land Pros
                   </p>
                 </div>
               </div>
