@@ -53,7 +53,7 @@ export function FeatureBlocks() {
             <p className="mt-6 leading-relaxed text-slate-700 sm:mt-8 sm:text-lg sm:leading-8">
               Lifetime updates and support are available to all websites 24/7.
               Just give us a call to change any content on your site, big or
-              small, and we'll get it done.
+              small, and we&apos;ll get it done.
             </p>
           </div>
         </div>
