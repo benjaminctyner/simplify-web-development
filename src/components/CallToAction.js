@@ -14,8 +14,8 @@ export function CallToAction() {
             Start growing your business today
           </h2>
           <p className="mt-6 text-center text-[17px] leading-relaxed text-slate-700 sm:text-lg sm:leading-relaxed md:text-left ">
-            We will boost your revenue by establishing and optimizing your
-            online presence. That&apos;s the power of keeping it simple.
+            We boost your revenue by establishing and optimizing your online
+            presence. That&apos;s the power of keeping it simple.
           </p>
           <div className="mt-10 flex w-full justify-center md:justify-start">
             <Button href="/contact">Get your website built</Button>
