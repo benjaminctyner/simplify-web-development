@@ -42,12 +42,12 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="flex h-full w-full items-center justify-center pb-[50px]">
-      <div className=" w-full rounded-2xl bg-gray-100 p-4 sm:w-[360px]">
+      <div className=" w-full border-[1px] border-gray-400 bg-gray-100 p-4 sm:w-[360px]">
         <div className="relative h-[230px] w-full">
           <Image
             src={image}
             alt="project_image"
-            className="h-full w-full rounded-2xl object-cover"
+            className="h-full w-full  object-cover"
           />
 
           <div className=" absolute inset-0 m-1 flex justify-end">
