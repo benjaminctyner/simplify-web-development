@@ -1,6 +1,6 @@
 import Image from 'next/future/image'
 
-import Gallery01 from '@/images/stock/gallery-01.jpg'
+import Gallery01 from '@/images/stock/me.jpg'
 import Gallery02 from '@/images/stock/gallery-02.jpg'
 import Gallery03 from '@/images/stock/gallery-03.jpg'
 import Gallery04 from '@/images/stock/gallery-04.jpg'
@@ -47,48 +47,12 @@ export function AboutHero() {
           <div className="flex-1 bg-vanilla" />
         </div>
         <Container className="relative">
-          <div className="mt-16 grid grid-cols-12 gap-3 sm:mt-24 lg:gap-5">
+          <div className="mx-auto grid w-1/2 grid-cols-1 gap-3 sm:mt-24 lg:gap-5">
             <div className="col-span-6 flex flex-col gap-3 sm:col-span-4 lg:gap-5">
               <Image
                 className="h-auto w-full object-cover object-center"
                 src={Gallery01}
                 alt="Gallery 01"
-              />
-              <Image
-                className="ml-auto h-auto w-full object-cover object-center md:w-2/3"
-                src={Gallery02}
-                alt="Gallery 02"
-              />
-            </div>
-            <div className="col-span-4 hidden flex-col gap-3 sm:flex md:col-span-2 lg:gap-5">
-              <Image
-                className="h-auto w-full object-cover object-center md:mt-12"
-                src={Gallery03}
-                alt="Gallery 03"
-              />
-              <Image
-                className="ml-auto hidden h-auto w-full object-cover object-center md:block "
-                src={Gallery04}
-                alt="Gallery 04"
-              />
-            </div>
-            <div className="col-span-6 flex flex-col gap-3 sm:col-span-4 lg:gap-5">
-              <Image
-                className="ml-auto h-auto w-full object-cover object-center md:w-1/2"
-                src={Gallery06}
-                alt="Gallery 06"
-              />
-              <Image
-                className="h-auto w-full object-cover object-center"
-                src={Gallery05}
-                alt="Gallery 05"
-              />
-            </div>
-            <div className="col-span-2 hidden flex-col gap-3 md:flex lg:gap-5">
-              <Image
-                className="mt-12 h-auto w-full object-cover object-center"
-                src={Gallery07}
-                alt="Gallery 07"
               />
             </div>
           </div>

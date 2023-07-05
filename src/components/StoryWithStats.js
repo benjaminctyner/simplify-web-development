@@ -52,13 +52,13 @@ export function StoryWithStats() {
           </div>
         </div>
         <div className="relative mt-16 sm:mt-20">
-          <div className="aspect-w-2 aspect-h-1">
+          {/* <div className="aspect-w-2 aspect-h-1">
             <Image
               className="object-cover object-center"
               src={TeamImage}
               alt="Team"
             />
-          </div>
+          </div> */}
           {/* <div className="absolute top-full left-6 right-6 flex max-w-4xl -translate-y-12 flex-col divide-y divide-gray-secondary-400/60 bg-amber-100 px-10 py-10 md:left-[unset] md:top-[unset] md:right-0 md:-bottom-1/4 md:w-full md:flex-row md:divide-y-0 md:divide-x md:px-8 lg:p-12">
             <div className="pb-10 md:w-1/3 md:pb-0 md:pr-10 lg:pr-12">
               <p className="text-center text-4xl font-semibold text-slate-900 lg:text-5xl">
