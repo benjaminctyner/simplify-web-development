@@ -154,16 +154,6 @@ export function Header() {
                     )}
                   </Disclosure> */}
                 </div>
-                <div className="mt-6">
-                  <Button
-                    size="md"
-                    href="/signin"
-                    variant="ghost"
-                    className="w-full"
-                  >
-                    Sign in
-                  </Button>
-                </div>
               </div>
             </Popover.Panel>
           </Transition.Child>
