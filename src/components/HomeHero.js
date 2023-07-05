@@ -92,7 +92,7 @@ export function HomeHero() {
                   />
                 </div>
                 <div className="ml-5">
-                  <p className="font-medium text-slate-900">Courtland Allen</p>
+                  <p className="font-medium text-slate-900">David Norman</p>
 
                   <p className="font-medium text-slate-500">
                     Lawn and Land Pros
