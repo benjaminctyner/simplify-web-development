@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
       <PricingCards />
 
-      <FeaturedTestimonials />
+      {/* <FeaturedTestimonials /> */}
 
       <CallToAction />
       <Footer />
