@@ -50,7 +50,7 @@ const ProjectCard = ({
             className="h-full w-full  object-cover"
           />
 
-          <div className=" absolute inset-0 m-1 flex justify-end">
+          {/* <div className=" absolute inset-0 m-1 flex justify-end">
             <div
               onClick={() => window.open(source_code_link, '_blank')}
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
@@ -61,7 +61,7 @@ const ProjectCard = ({
                 className="h-1/2 w-1/2 object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div
