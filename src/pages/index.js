@@ -29,7 +29,7 @@ export default function Home() {
       <FeatureBlocks />
       <FeaturesGrid />
       <Process />
-      <TestimonialsSlide />
+      {/* <TestimonialsSlide /> */}
 
       <CallToAction />
       <Footer />
