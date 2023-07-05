@@ -67,7 +67,12 @@ export function ContactHeader() {
         </div>
       </Container>
       <div className="px-10 pt-[20px] md:px-[240px]">
-        <form action="#" className="space-y-8">
+        <form
+          name="contact"
+          method="POST"
+          className="space-y-8"
+          data-netlify="true"
+        >
           <div>
             <label
               htmlFor="email"
