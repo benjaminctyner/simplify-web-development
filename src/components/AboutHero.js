@@ -47,7 +47,7 @@ export function AboutHero() {
           <div className="flex-1 bg-vanilla" />
         </div>
         <Container className="relative">
-          <div className="mx-auto grid w-1/2 grid-cols-1 gap-3 sm:mt-24 lg:gap-5">
+          <div className="mx-auto mt-[30px] grid w-1/2 grid-cols-1 gap-3 lg:mt-[50px] lg:gap-5">
             <div className="col-span-6 flex flex-col gap-3 sm:col-span-4 lg:gap-5">
               <Image
                 className="h-auto w-full object-cover object-center"
