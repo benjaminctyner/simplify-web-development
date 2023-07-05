@@ -101,10 +101,10 @@ export function HomeHero() {
               </div>
             </blockquote>
           </div>
-          <div className="absolute bottom-0 right-6 hidden w-1/3  bg-gray-secondary-100 md:block lg:right-12 xl:-right-0 xl:w-full xl:max-w-xl 2xl:-right-32 2xl:max-w-[640px]">
+          <div className="b absolute bottom-0 right-6 hidden  w-1/3 md:block lg:right-12 xl:-right-0 xl:w-full xl:max-w-xl 2xl:-right-32 2xl:max-w-[640px]">
             <Image
               src={homeHeroImg}
-              className="h-auto w-full object-cover"
+              className="h-auto w-auto object-cover md:max-h-[550px] lg:max-h-[1000px]"
               priority
             />
           </div>
