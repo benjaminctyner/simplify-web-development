@@ -1,6 +1,6 @@
 import Image from 'next/future/image'
 
-import Gallery01 from '@/images/stock/me.jpg'
+import Gallery01 from '@/images/stock/me.png'
 import Gallery02 from '@/images/stock/gallery-02.jpg'
 import Gallery03 from '@/images/stock/gallery-03.jpg'
 import Gallery04 from '@/images/stock/gallery-04.jpg'
