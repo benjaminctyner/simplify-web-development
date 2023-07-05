@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <Header />
       <HomeHero />
-      <LogosRow />
+      {/* <LogosRow /> */}
       <FeatureBlocks />
       <FeaturesGrid />
       <Process />
