@@ -73,6 +73,7 @@ export function ContactHeader() {
           className="space-y-8"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <label
               htmlFor="email"
