@@ -15,7 +15,7 @@ export function CareersCTA() {
             call if Simplify is the right fit for you.
           </p>
           <div className="mt-10 flex w-full justify-center sm:mt-12">
-            <Button href="/signup">See open positions</Button>
+            <Button href="/contact">See open positions</Button>
           </div>
         </div>
       </Container>
