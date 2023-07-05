@@ -26,7 +26,7 @@ export function FeatureBlocks() {
               Never worry about web traffic again
             </h2>
             <p className="mt-6 leading-relaxed text-slate-700 sm:mt-8 sm:text-lg sm:leading-8">
-              Through state of the art Search Engine Optimization (SEO), we
+              Through state-of-the art Search Engine Optimization (SEO), we
               drive traffic to your business website. Your website will
               consistently rank higher than competing businesses in your area
               through our data driven approaches and tools.
